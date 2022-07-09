@@ -1,0 +1,106 @@
+.section-padding {
+  padding: 40px 0px;
+}
+
+.main-content {
+  .middle-content {
+    width: 70%;
+    margin: auto;
+  }
+  h2 {
+    font-family: 'Philosopher', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $Theme-black;
+  }
+  p {
+    color: $Theme-dark;
+    font-family: 'Philosopher', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .box-colored {
+    background: #f8fafc;
+    border: 1px solid #e4eaf1;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 25px;
+    p {
+      text-align: left;
+    }
+    h5 {
+      font-size: 22px;
+    }
+    .book-media {
+      img {
+        width: 100%;
+      }
+    }
+    .book-info {
+      ul {
+        li {
+          list-style-type: none;
+          font-family: 'Philosopher', sans-serif !important;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 28px;
+          display: flex;
+          align-items: center;
+          color: $Theme-dark;
+          margin-bottom: 15px;
+          display: flex;
+          align-items: center;
+          span {
+            flex: 0 0 40%;
+          }
+          .star-rating {
+            display: flex;
+            i {
+              font-size: 23px;
+              margin-right: 5px;
+              color: #dbdb29;
+            }
+          }
+        }
+      }
+    }
+  }
+  .final-art-sec {
+    .art-photo {
+      width: 100%;
+    }
+  }
+  .listing-card-data {
+    h2 {
+      justify-content: flex-start;
+      margin-bottom: 20px;
+    }
+  }
+  .bottom-content {
+    border-top: 1px solid #e4eaf1;
+    padding-top: 50px;
+    margin-top: 50px;
+    p {
+      color: $Theme-dark;
+      font-family: 'Philosopher', sans-serif !important;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}

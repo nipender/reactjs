@@ -1,0 +1,126 @@
+.page-footer {
+  background-color: $Theme-primary2;
+  padding-top: 60px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  .brand-logo {
+    margin-bottom: 70px;
+    img {
+      width: 130px;
+    }
+  }
+  .footer-contact-touch {
+    margin-bottom: 40px;
+    h2 {
+      font-family: 'Philosopher', sans-serif !important;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: $Theme-white;
+      margin-bottom: 30px;
+    }
+    h4 {
+      color: $Theme-white;
+      font-size: 22px;
+    }
+    .contact-form {
+      form {
+        position: relative;
+        width: 80%;
+        .form-control {
+          background-color: transparent;
+          border: none;
+          border-bottom: 2px solid #fff;
+          border-radius: 0px;
+          color: $Theme-white;
+          height: 50px;
+          &::placeholder {
+            color: $Theme-white;
+          }
+          &:focus {
+            box-shadow: none;
+          }
+        }
+        i {
+          position: absolute;
+          color: #fff;
+          font-size: 22px;
+          top: 13px;
+          right: 8px;
+        }
+      }
+    }
+    .social-links {
+      ul {
+        padding-left: 0px;
+        display: flex;
+        margin-bottom: 25px;
+        li {
+          list-style-type: none;
+          margin-right: 10px;
+          a {
+            background-color: $Theme-white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            i {
+              color: $Theme-primary;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+      p {
+        color: $Theme-white;
+        font-family: 'Philosopher', sans-serif !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 0px;
+        .fa-heart {
+          color: red;
+          margin: 0px 5px;
+        }
+        .fa-globe {
+          color: #30b121;
+          margin-left: 5px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .footer-widget {
+    margin-bottom: 40px;
+    h4 {
+      color: $Theme-white;
+      font-size: 24px;
+      padding-bottom: 15px;
+    }
+    ul {
+      padding-left: 0px;
+      li {
+        list-style-type: none;
+        a {
+          color: $Theme-white;
+          font-size: 16px;
+          text-decoration: none;
+          display: block;
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+}
